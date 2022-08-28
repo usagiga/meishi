@@ -5,13 +5,13 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .nyu {
-    animation: 3s ease-in-out 1 both Nyu;
+    animation: 1s cubic-bezier(0.75,0.1,0.25,0.9) 1 both Nyu;
   }
 }
 
 @keyframes Nyu {
   from {
-    transform: translateX(-45%) translateY(-50%);
+    transform: translateX(-40%) translateY(-50%);
     opacity: 0;
   }
   to {
