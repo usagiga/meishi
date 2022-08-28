@@ -6,7 +6,7 @@ import CircleWindow from "../lib/components/CircleWindow";
 
 const Portrait: React.FC = () => {
     return (
-        <CircleWindow className='Portrait nyu-outer'>
+        <CircleWindow className='Portrait'>
             <img src={logo} alt="portrait" className='nyu' />
         </CircleWindow>
     );
