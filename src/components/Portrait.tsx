@@ -1,11 +1,12 @@
 import React from 'react';
-import './Portrait.css';
+import './Portrait.scss';
+import '../lib/animations/nyu.scss'
 import logo from './logo.png';
 
 const Portrait: React.FC = () => {
     return (
-        <div className='Portrait'>
-            <img src={logo} alt="portrait" />
+        <div className='Portrait nyu-outer'>
+            <img src={logo} alt="portrait" className='nyu' />
         </div>
     );
 };
