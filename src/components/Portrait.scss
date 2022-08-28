@@ -6,15 +6,9 @@ $logo_size: 256px;
     width: $logo_size;
     height: $logo_size;
     pointer-events: none;
-
-    border: 8px solid white;
-    border-radius: $logo_size;
-    box-shadow: 0 0 4px 0 #aaa;
-
-    overflow: hidden;
 }
 
 .Portrait img {
-    width: calc(#{$logo_size} * 1.5);
-    height: calc(#{$logo_size} * 1.5);
+    width: 150%;
+    height: 150%;
 }
