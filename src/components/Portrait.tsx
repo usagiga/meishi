@@ -1,10 +1,11 @@
 import React from 'react';
 import './Portrait.css';
+import logo from './logo.png';
 
 const Portrait: React.FC = () => {
     return (
         <div className='Portrait'>
-            <img src='https://usagiga.me/assets/image/logo.png' alt="portrait" />
+            <img src={logo} alt="portrait" />
         </div>
     );
 };

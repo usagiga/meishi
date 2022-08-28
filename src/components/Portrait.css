@@ -9,10 +9,6 @@
     height: var(--size);
     pointer-events: none;
 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-
     border: 8px solid white;
     border-radius: var(--size);
     box-shadow: 0 0 4px 0 #aaa;
@@ -21,23 +17,26 @@
 }
 
 .Portrait img {
-    width: 312px;
-    height: 312px;
+    width: 384px;
+    height: 384px;
+
+    margin-top: 50%;
+    margin-left: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
     .Portrait img {
-        animation: Enter 1 3s ease-in-out;
+        animation: Enter infinite 3s ease-in-out;
     }
 }
 
 @keyframes Enter {
     from {
-        transform: translateX(32px);
+        transform: translateX(-45%) translateY(-50%);
         opacity: 0;
     }
     to {
-        transform: translateX(0);
+        transform: translateX(-50%) translateY(-50%);
         opacity: 1.0;
     }
 }
