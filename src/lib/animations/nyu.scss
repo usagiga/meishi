@@ -5,7 +5,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .nyu {
-    animation: 1s cubic-bezier(0.75,0.1,0.25,0.9) 1 both Nyu;
+    animation: 1s cubic-bezier(0.75, 0.1, 0.25, 0.9) 1 both Nyu;
   }
 }
 
@@ -16,6 +16,6 @@
   }
   to {
     transform: translateX(-50%) translateY(-50%);
-    opacity: 1.0;
+    opacity: 1;
   }
 }

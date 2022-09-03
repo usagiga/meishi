@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.scss';
+import React from "react";
+import "./App.scss";
 import Portrait from "./components/Portrait";
 
 function App() {
@@ -7,9 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Portrait />
-        <p>
-          Usagiga
-        </p>
+        <p>Usagiga</p>
       </header>
     </div>
   );
