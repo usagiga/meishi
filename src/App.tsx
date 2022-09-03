@@ -7,7 +7,7 @@ function App() {
     <div className="app">
       <header className="appHeader">
         <Portrait />
-        <p>Usagiga</p>
+        <p className="name">usagiga</p>
       </header>
     </div>
   );

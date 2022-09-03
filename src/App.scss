@@ -1,16 +1,21 @@
-.app {
-  text-align: center;
-}
-
 .appHeader {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  background-color: #282c34;
+  height: 100vh;
+
+  .name {
+    $name-font-size: calc(10px + 2vmin);
+    font-size: $name-font-size;
+    line-height: $name-font-size;
+  }
+}
+
+.appSection {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .appLink {
