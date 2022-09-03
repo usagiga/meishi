@@ -1,5 +1,5 @@
-import React, { FC } from "react";
-import "./CircleWindow.scss";
+import React, { FC } from 'react';
+import './CircleWindow.scss';
 
 type CircleWindowProps = {
   className?: string;
@@ -8,7 +8,7 @@ type CircleWindowProps = {
 
 const CircleWindow: FC<CircleWindowProps> = (props) => {
   return (
-    <div className={"circle-window " + props.className}>{props.children}</div>
+    <div className={'circle-window ' + props.className}>{props.children}</div>
   );
 };
 
