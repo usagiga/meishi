@@ -1,15 +1,31 @@
 .appHeader {
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  text-align: center;
 
   .name {
     $name-font-size: calc(10px + 2vmin);
+
     font-size: $name-font-size;
     line-height: $name-font-size;
+  }
+
+  .batches {
+    $batches-font-size: calc(10px + 1vmin);
+
+    font-size: $batches-font-size;
+    line-height: $batches-font-size;
+  }
+
+  .job {
+    text-align: left;
+
+    ul {
+      list-style: none;
+    }
   }
 }
 
