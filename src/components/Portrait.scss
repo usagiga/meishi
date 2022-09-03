@@ -1,14 +1,13 @@
 $logo_size: 256px;
 
-.Portrait {
-  background-color: white;
-
+.portrait {
   width: $logo_size;
   height: $logo_size;
   pointer-events: none;
+  background-color: white;
 }
 
-.Portrait img {
+.portrait img {
   width: 150%;
   height: 150%;
 }

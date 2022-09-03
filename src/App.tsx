@@ -1,11 +1,11 @@
-import React from "react";
-import "./App.scss";
-import Portrait from "./components/Portrait";
+import React from 'react';
+import './App.scss';
+import Portrait from './components/Portrait';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="app">
+      <header className="appHeader">
         <Portrait />
         <p>Usagiga</p>
       </header>
