@@ -26,10 +26,11 @@
     "format:fix": "prettier --write ./src",
     "lint": "npm run lint:es && npm run lint:style",
     "lint:fix": "npm run lint:es:fix && npm run lint:style:fix",
-    "lint:es": "eslint './src'",
-    "lint:es:fix": "eslint --fix './src'",
-    "lint:style": "stylelint 'src/**/*.{css,less,sass,scss}'",
-    "lint:style:fix": "stylelint --fix 'src/**/*.{css,less,sass,scss}'"
+    "lint:es": "eslint --max-warnings=0 './src'",
+    "lint:es:fix": "eslint --max-warnings=0 --fix './src'",
+    "lint:style": "stylelint --max-warnings=0 'src/**/*.{css,less,sass,scss}'",
+    "lint:style:fix": "stylelint --max-warnings=0 --fix 'src/**/*.{css,less,sass,scss}'",
+    "prepare": "husky install"
   },
   "browserslist": {
     "production": [
@@ -45,6 +46,7 @@
   },
   "devDependencies": {
     "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
     "postcss-scss": "^4.0.4",
     "prettier": "^2.7.1",
     "stylelint": "^14.11.0",
