@@ -8,7 +8,7 @@ type CircleWindowProps = {
 
 const CircleWindow: FC<CircleWindowProps> = (props) => {
   return (
-    <div className={'circle-window ' + props.className}>{props.children}</div>
+    <div className={'circleWindow ' + props.className}>{props.children}</div>
   );
 };
 
