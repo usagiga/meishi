@@ -1,13 +1,13 @@
 import React from 'react';
-import './Portrait.scss';
-import '../lib/animations/nyu.scss';
+import styles from './Portrait.module.scss';
+import nyuStyles from '../lib/animations/nyu.module.scss';
 import logo from './logo.png';
 import CircleWindow from '../lib/components/CircleWindow';
 
 const Portrait: React.FC = () => {
   return (
-    <CircleWindow className="portrait">
-      <img src={logo} alt="portrait" className="nyu" />
+    <CircleWindow className={styles.portrait}>
+      <img src={logo} alt="portrait" className={nyuStyles.nyu} />
     </CircleWindow>
   );
 };

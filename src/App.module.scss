@@ -8,7 +8,7 @@
   text-align: center;
 
   .name {
-    $name-font-size: 2.0em;
+    $name-font-size: 2em;
 
     font-size: $name-font-size;
     line-height: $name-font-size;
@@ -22,10 +22,11 @@
   }
 
   .job {
+    padding-left: 0;
     text-align: left;
+    list-style: none;
 
     ul {
-      padding-left: 0;
       list-style: none;
     }
   }
