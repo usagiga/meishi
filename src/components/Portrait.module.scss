@@ -5,9 +5,9 @@ $logo_size: 256px;
   height: $logo_size;
   pointer-events: none;
   background-color: white;
-}
 
-.portrait img {
-  width: 150%;
-  height: 150%;
+  > img {
+    width: 150%;
+    height: 150%;
+  }
 }

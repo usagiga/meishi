@@ -1,15 +1,15 @@
 import React from 'react';
-import './App.scss';
+import styles from './App.module.scss';
 import Portrait from './components/Portrait';
 
 function App() {
   return (
     <div className="app">
-      <header className="appHeader">
+      <header className={styles.appHeader}>
         <Portrait />
-        <p className="name">usagiga</p>
-        <p className="batches">🎀💉</p>
-        <p className="job">
+        <p className={styles.name}>usagiga</p>
+        <p className={styles.batches}>🎀💉</p>
+        <p className={styles.job}>
           <ul>
             <li>
               Software engineer(Go, ASP.NET Core, React)
