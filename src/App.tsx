@@ -8,6 +8,7 @@ function App() {
       <header className={styles.appHeader}>
         <Portrait />
         <p className={styles.name}>usagiga</p>
+        <p className={styles.batches}>🎀💉</p>
         <ul className={styles.job}>
           <li>
             Software engineer(Go, ASP.NET Core, React)
