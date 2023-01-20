@@ -12,9 +12,6 @@ function App() {
         <ul className={styles.job}>
           <li>
             Software engineer(Go, ASP.NET Core, React)
-            <ul>
-              <li>DeNA Co., Ltd. (2021-)</li>
-            </ul>
           </li>
           <li>
             Professional Cloud Developer
