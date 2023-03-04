@@ -16,7 +16,7 @@ function App() {
           <li>
             Professional Cloud Developer
             <ul>
-              <li>E.G.G. Japan 5th Attendee</li>
+              <li>Expert of GCP for Gaming Japan 5th Attendee</li>
             </ul>
           </li>
           <li>
