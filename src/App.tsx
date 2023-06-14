@@ -31,6 +31,9 @@ function App() {
             Founder of{' '}
             <a href="https://github.com/snowbelle-org">snowbelle.org</a>
           </li>
+          <li>
+            Member of Japan Hackers Association
+          </li>
         </ul>
       </header>
     </div>
