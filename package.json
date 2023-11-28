@@ -2,6 +2,10 @@
   "name": "meishi",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=17.9",
+    "pnpm": ">=8"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
@@ -28,8 +32,8 @@
     "eject": "react-scripts eject",
     "format": "prettier --list-different 'src/**/*.{js,jsx,ts,tsx,gql,graphql,json,css,scss}'",
     "format:fix": "prettier --write ./src",
-    "lint": "npm run lint:es && npm run lint:style",
-    "lint:fix": "npm run lint:es:fix && npm run lint:style:fix",
+    "lint": "pnpm run lint:es && npm run lint:style",
+    "lint:fix": "pnpm run lint:es:fix && npm run lint:style:fix",
     "lint:es": "eslint --max-warnings=0 './src'",
     "lint:es:fix": "eslint --max-warnings=0 --fix './src'",
     "lint:style": "stylelint --max-warnings=0 'src/**/*.{css,less,sass,scss}'",
