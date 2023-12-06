@@ -1,0 +1,66 @@
+@import '../../variables';
+
+.summaryContainer {
+  display: block;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  .summary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 8px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 1px solid $foreground;
+  }
+}
+
+.contentContainer {
+  overflow: hidden;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 8px;
+    text-align: left;
+  }
+}
+
+.icon {
+  position: relative;
+  display: block;
+  flex-shrink: 0;
+  width: 24px;
+  margin-left: 6px;
+  transition: transform 0.4s;
+  transform-origin: center 43%;
+
+  &::before,
+  &::after {
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 3px;
+    content: '';
+  }
+
+  &::before {
+    left: 0;
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    right: 0;
+    transform: rotate(-45deg);
+  }
+}
+
+.detailsContainer.isOpened .icon {
+  transform: rotate(180deg);
+}
