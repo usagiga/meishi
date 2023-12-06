@@ -2,34 +2,30 @@
   "name": "meishi",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.10",
+    "pnpm": ">=8"
+  },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.2.0",
-    "@fortawesome/free-brands-svg-icons": "^6.2.0",
-    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.11.56",
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "sass": "^1.54.5",
-    "typescript": "^4.7.4",
-    "web-vitals": "^2.1.4"
+    "sass": "^1.69.5",
+    "typescript": "^4.9.5",
+    "web-vitals": "^3.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --list-different 'src/**/*.{js,jsx,ts,tsx,gql,graphql,json,css,scss}'",
     "format:fix": "prettier --write ./src",
-    "lint": "npm run lint:es && npm run lint:style",
-    "lint:fix": "npm run lint:es:fix && npm run lint:style:fix",
+    "lint": "pnpm run lint:es && npm run lint:style",
+    "lint:fix": "pnpm run lint:es:fix && npm run lint:style:fix",
     "lint:es": "eslint --max-warnings=0 './src'",
     "lint:es:fix": "eslint --max-warnings=0 --fix './src'",
     "lint:style": "stylelint --max-warnings=0 'src/**/*.{css,less,sass,scss}'",
@@ -49,15 +45,18 @@
     ]
   },
   "devDependencies": {
-    "eslint-config-prettier": "^8.5.0",
-    "husky": "^8.0.1",
-    "postcss-scss": "^4.0.4",
-    "prettier": "^2.7.1",
-    "stylelint": "^14.11.0",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-recess-order": "^3.0.0",
+    "@types/node": "^20.10.3",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^8.0.3",
+    "postcss-scss": "^4.0.9",
+    "prettier": "^3.1.0",
+    "stylelint": "^14.16.1",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-recess-order": "^3.1.0",
     "stylelint-config-standard": "^28.0.0",
     "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.3.0"
+    "stylelint-scss": "^4.7.0"
   }
 }
