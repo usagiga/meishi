@@ -1,0 +1,11 @@
+@import '../../variables.scss';
+
+.container {
+  padding: 2px 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: $background;
+  border: 3px solid white;
+  border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+  box-shadow: 0 0 4px 0 #aaa;
+}
