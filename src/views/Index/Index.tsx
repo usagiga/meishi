@@ -13,6 +13,7 @@ import {
   faInstagram,
   faTwitch,
   faTwitter,
+  faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
 import SocialLink from './components/SocialLink';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
@@ -51,6 +52,11 @@ function Index() {
       text: 'usagiga',
     },
     {
+      href: 'https://www.youtube.com/@usagiga',
+      icon: faYoutube,
+      text: 'usagiga',
+    },
+    {
       href: 'https://www.instagram.com/usagiga_',
       icon: faInstagram,
       text: 'usagiga_',
@@ -62,11 +68,6 @@ function Index() {
       icon: '🎀💉',
       href: 'https://meachi.me/twitch',
       tooltip: '棺乃めあさん',
-    },
-    {
-      icon: '☯️🐕',
-      href: 'https://twitch.tv/omyo3_',
-      tooltip: 'おみょさん',
     },
     {
       icon: '🧊🐧',
@@ -280,6 +281,7 @@ function Index() {
                 <li>小田望楓</li>
                 <li>John Kafka</li>
                 <li>ドライフラワー</li>
+                <li>長井りく</li>
               </ul>
             </li>
           </ul>
