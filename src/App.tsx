@@ -10,9 +10,7 @@ function App() {
         <p className={styles.name}>usagiga</p>
         <p className={styles.batches}>🎀💉</p>
         <ul className={styles.job}>
-          <li>
-            Software engineer(Go, ASP.NET Core, React)
-          </li>
+          <li>Software engineer(Go, ASP.NET Core, React)</li>
           <li>
             Professional Cloud Developer
             <ul>
@@ -31,9 +29,7 @@ function App() {
             Founder of{' '}
             <a href="https://github.com/snowbelle-org">snowbelle.org</a>
           </li>
-          <li>
-            Member of Japan Hackers Association
-          </li>
+          <li>Member of Japan Hackers Association</li>
         </ul>
       </header>
     </div>
