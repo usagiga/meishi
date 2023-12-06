@@ -15,10 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: 'Use Node.js 17.9'
+      - name: 'Use Node.js 20.10'
         uses: actions/setup-node@v3
         with:
-          node-version: '17.9'
+          node-version: '20.10'
 
       - name: 'Use pnpm 8'
         uses: pnpm/action-setup@v2
