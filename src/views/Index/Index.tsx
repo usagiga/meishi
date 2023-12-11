@@ -243,6 +243,7 @@ function Index() {
                 <li>発熱巫女〜ず</li>
                 <li>レベッカ</li>
                 <li>AI</li>
+                <li>ワールドナガーセ</li>
                 <li>じんぞう</li>
                 <li>小林私</li>
                 <li>日食なつこ</li>
