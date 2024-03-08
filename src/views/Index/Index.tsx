@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Index.module.scss';
-import Portrait, { Fave } from './components/Portrait';
+import Portrait from './components/Portrait';
 import AccordionText from '../../lib/components/AccordionText';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -63,23 +63,11 @@ function Index() {
     },
   ];
   const socialLinks = generateSocialLinks(links);
-  const faves: Fave[] = [
-    {
-      icon: '🎀💉',
-      href: 'https://meachi.me/twitch',
-      tooltip: '棺乃めあさん',
-    },
-    {
-      icon: '🧊🐧',
-      href: 'https://twitch.tv/popol_vtuber',
-      tooltip: '南ぽぽるさん',
-    },
-  ];
 
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <Portrait faves={faves} />
+        <Portrait />
         <div className={styles.nameContainer}>
           <p className={styles.name}>usagiga</p>
           <p className={styles.description}>等身大のヌメルゴンがほしいよ</p>
