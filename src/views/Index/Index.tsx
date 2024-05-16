@@ -171,9 +171,7 @@ function Index() {
           }
         >
           <ul className={styles.list}>
-            <li>
-              Cooking
-            </li>
+            <li>Cooking</li>
             <li>
               Comic & Literature
               <ul>
