@@ -173,50 +173,23 @@ function Index() {
           <ul className={styles.list}>
             <li>
               Cooking
-              <ul>
-                <li>まかないさんしてます</li>
-                <li>食器はビレロイボッホとたち吉がすき</li>
-              </ul>
             </li>
             <li>
               Comic & Literature
               <ul>
                 <li>
                   <a href="https://www.pixiv.net/users/782478">芦山</a>
-                  <ul>
-                    <li>
-                      理想のまんがを追い求める仙人！池水と明治と紀要がすきです、連載がたのしみすぎてよめないよ
-                    </li>
-                  </ul>
                 </li>
                 <li>
                   <a href="https://www.pixiv.net/users/2473929">塀</a>
-                  <ul>
-                    <li>上伊那ぼたん</li>
-                  </ul>
                 </li>
                 <li>
                   <a href="https://www.pixiv.net/users/1598085">
                     樫木祐人 / 兎沢
                   </a>
-                  <ul>
-                    <li>
-                      ハクミコと縁とかぜかさねとおちあゆ、くらしかたが好き
-                    </li>
-                  </ul>
                 </li>
-                <li>
-                  唯野影吉 / 過酸化水素ストリキニーネ
-                  <ul>
-                    <li>文ト通ジズ</li>
-                  </ul>
-                </li>
-                <li>
-                  うまくち醤油
-                  <ul>
-                    <li>時雨ベッドウェッタ</li>
-                  </ul>
-                </li>
+                <li>唯野影吉 / 過酸化水素ストリキニーネ</li>
+                <li>うまくち醤油</li>
                 <li>松本大洋</li>
                 <li>三田三郎</li>
                 <li>暁佳奈</li>
@@ -231,33 +204,41 @@ function Index() {
                 <li>発熱巫女〜ず</li>
                 <li>レベッカ</li>
                 <li>AI</li>
-                <li>ワールドナガーセ</li>
+                <li>平井堅</li>
                 <li>じんぞう</li>
                 <li>小林私</li>
                 <li>日食なつこ</li>
                 <li>ヨエコ</li>
                 <li>kiki vivi lily</li>
+                <li>ど～ぱみん</li>
+                <li>4U</li>
+                <li>WHITE ASH / THE LITTLE BLACK</li>
+                <li>ピチカート・ファイヴ</li>
               </ul>
             </li>
             <li>
               Game
               <ul>
                 <li>スプラトゥーン</li>
+                <li>CHUNITHM</li>
                 <li>F-ZERO GX</li>
                 <li>Elite: Dangerous</li>
                 <li>SCE_2</li>
                 <li>For the GHOSTs</li>
-                <li>もろびとこぞりて</li>
-                <li>つり乙</li>
+                <li>月に寄り添う乙女の作法</li>
                 <li>Slay the Spire</li>
+                <li>レイジングループ</li>
+                <li>十三機兵防衛圏</li>
+                <li>
+                  ユニコーンオーバーロード
+                  <ul>
+                    <li>オンライン闘技場 '24 5月上期 最終世界2位</li>
+                  </ul>
+                </li>
                 <li>
                   Magic: the Gathering
                   <ul>
                     <li>Calix, Guided by Fate</li>
-                    <li>Yenna, Redtooth Regent</li>
-                    <li>Brago, King Eternal</li>
-                    <li>Innistrad</li>
-                    <li>Kamigawa</li>
                   </ul>
                 </li>
               </ul>
@@ -268,8 +249,6 @@ function Index() {
                 <li>村田蓮爾</li>
                 <li>もちぬ / あけのからす</li>
                 <li>小田望楓</li>
-                <li>John Kafka</li>
-                <li>ドライフラワー</li>
                 <li>長井りく</li>
               </ul>
             </li>
