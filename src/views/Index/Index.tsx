@@ -91,6 +91,8 @@ function Index() {
                 <li>Go</li>
                 <li>ASP.NET Core</li>
                 <li>React</li>
+                <li>Vue</li>
+                <li>Solid</li>
               </ul>
             </li>
             <li>
