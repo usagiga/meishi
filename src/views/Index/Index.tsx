@@ -91,17 +91,12 @@ function Index() {
                     </li>
                   </ul>
                 </li>
-                <li>
-                  Founder of{' '}
-                  <a href="https://github.com/snowbelle-org">snowbelle.org</a>{' '}
-                </li>
-                <li>Member of Japan Hackers Association</li>
               </ul>
             </li>
             <li>
               Certificates
               <ul>
-                Professional Cloud Developer
+                Professional Cloud Developer (2022-2024)
                 <ul>
                   <li>Expert of GCP for Gaming Japan 5th Attendee</li>
                 </ul>
