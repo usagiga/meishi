@@ -10,10 +10,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faGithub,
-  faInstagram,
-  faTwitch,
   faTwitter,
-  faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
 import SocialLink from './components/SocialLink';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
@@ -45,21 +42,6 @@ function Index() {
       href: 'https://github.com/usagiga',
       icon: faGithub,
       text: 'usagiga',
-    },
-    {
-      href: 'https://twitch.tv/usagiga',
-      icon: faTwitch,
-      text: 'usagiga',
-    },
-    {
-      href: 'https://www.youtube.com/@usagiga',
-      icon: faYoutube,
-      text: 'usagiga',
-    },
-    {
-      href: 'https://www.instagram.com/usagiga_',
-      icon: faInstagram,
-      text: 'usagiga_',
     },
   ];
   const socialLinks = generateSocialLinks(links);
