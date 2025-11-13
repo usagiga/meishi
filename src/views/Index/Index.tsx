@@ -8,10 +8,7 @@ import {
   faGraduationCap,
   faHeart,
 } from '@fortawesome/free-solid-svg-icons';
-import {
-  faGithub,
-  faTwitter,
-} from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import SocialLink from './components/SocialLink';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
