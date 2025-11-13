@@ -8,13 +8,7 @@ import {
   faGraduationCap,
   faHeart,
 } from '@fortawesome/free-solid-svg-icons';
-import {
-  faGithub,
-  faInstagram,
-  faTwitch,
-  faTwitter,
-  faYoutube,
-} from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import SocialLink from './components/SocialLink';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
@@ -45,21 +39,6 @@ function Index() {
       href: 'https://github.com/usagiga',
       icon: faGithub,
       text: 'usagiga',
-    },
-    {
-      href: 'https://twitch.tv/usagiga',
-      icon: faTwitch,
-      text: 'usagiga',
-    },
-    {
-      href: 'https://www.youtube.com/@usagiga',
-      icon: faYoutube,
-      text: 'usagiga',
-    },
-    {
-      href: 'https://www.instagram.com/usagiga_',
-      icon: faInstagram,
-      text: 'usagiga_',
     },
   ];
   const socialLinks = generateSocialLinks(links);
@@ -109,17 +88,12 @@ function Index() {
                     </li>
                   </ul>
                 </li>
-                <li>
-                  Founder of{' '}
-                  <a href="https://github.com/snowbelle-org">snowbelle.org</a>{' '}
-                </li>
-                <li>Member of Japan Hackers Association</li>
               </ul>
             </li>
             <li>
               Certificates
               <ul>
-                Professional Cloud Developer
+                Professional Cloud Developer (2022-2024)
                 <ul>
                   <li>Expert of GCP for Gaming Japan 5th Attendee</li>
                 </ul>
