@@ -188,6 +188,7 @@ function Index() {
                 <li>4U</li>
                 <li>WHITE ASH / THE LITTLE BLACK</li>
                 <li>ピチカート・ファイヴ</li>
+                <li>Zazen Boys</li>
               </ul>
             </li>
             <li>
@@ -213,6 +214,12 @@ function Index() {
                   Magic: the Gathering
                   <ul>
                     <li>Calix, Guided by Fate</li>
+                  </ul>
+                </li>
+                <li>
+                  ELDEN RING NIGHTREIGN
+                  <ul>
+                    <li>Maris, Fathom of Night</li>
                   </ul>
                 </li>
               </ul>
